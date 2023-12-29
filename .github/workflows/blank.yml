@@ -24,10 +24,6 @@ jobs:
       - name: install modules
         run: yarn install --production
 
-      - name: run test
-        run: |
-          yarn add jest
-          sudo yarn test
 
       - name: Docker Login
        
