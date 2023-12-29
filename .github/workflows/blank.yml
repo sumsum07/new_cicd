@@ -36,7 +36,7 @@ jobs:
       - name: Build and push to Dockerhub
         run: |
           docker build -t gdsc .
-          docker tag gdsc:latest $/gdsc:latest
+          docker tag gdsc:latest sumsum07/gdsc:latest
           docker push sumsum07/gdsc:latest
 
   CD:
